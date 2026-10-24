@@ -1,3 +1,11 @@
+import Hero from "@/components/hero";
+
 export default function Reliability() {
-  return <div>Reliability page</div>;
+  return (
+    <Hero
+      heroImage="/reliability.jpg"
+      altText="welding"
+      title="Super High reliability Hosting"
+    />
+  );
 }
